@@ -1,0 +1,1 @@
+document.querySelector('form').addEventListener('submit',e=>{e.preventDefault();document.querySelector('#result').textContent='Simulação concluída. Nenhuma informação foi enviada.';e.target.reset()});
